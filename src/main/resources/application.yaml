@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: exam
+  datasource:
+    url: ${DB_URL:jdbc:postgresql://localhost:5432/test2509}
+    username: ${DB_USER:postgres}
+    password: ${DB_PASSWORD:123}
+  jpa:
+    open-in-view: false
+    show-sql: true
+    hibernate:
+      ddl-auto: update
