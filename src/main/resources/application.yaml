@@ -2,7 +2,7 @@ spring:
   application:
     name: exam
   datasource:
-    url: ${DB_URL:jdbc:postgresql://localhost:5432/test2509}
+    url: ${DB_URL:jdbc:postgresql://localhost:5432/building_db}
     username: ${DB_USER:postgres}
     password: ${DB_PASSWORD:123}
   jpa:
